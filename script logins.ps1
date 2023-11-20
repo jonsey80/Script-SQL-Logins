@@ -334,6 +334,6 @@ WHERE  DBUser.Type IN (
   $azure_AD = 'n' #Read-host "Is the instance you are restoring these logins to using Azure AD (y/n): "
  
   #run each part of the script 
-  #get_usergroups($server_to_script)
+  get_usergroups($server_to_script)
   get_logins($server_to_script)
   
