@@ -14,8 +14,8 @@
 
 
 
-$fileslocation = 'C:\Users\MOJONES\Documents\PROJECTS\DEMATIC MIGRATION\LOGIN'
-$server = 'PON-WPSQ24-DB10\IN10,53282'
+$fileslocation = <FOLDER>
+$server = <INSTANCE>
 
 Get-ChildItem -path $fileslocation -Recurse|
 
