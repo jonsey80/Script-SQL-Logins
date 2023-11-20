@@ -327,9 +327,9 @@ WHERE  DBUser.Type IN (
 "
 
   ##find the script parameters
-  $server_to_script  = 'PON-WPSQ22-DB01\IN01,54596' 
+  $server_to_script  = <SQL INSTANCE>
   #Read-Host "Which Server do you want to script from: "
-  $file_location =  'C:\Users\MOJONES\Documents\PROJECTS\DEMATIC MIGRATION\LOGIN'
+  $file_location =  <FOLDER>
   ##Read-Host "Where do you wish to create the login scripts: "
   $azure_AD = 'n' #Read-host "Is the instance you are restoring these logins to using Azure AD (y/n): "
  
